@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,300&display=swap');
+
+body{
+    color: #E8EAE3;
+    background-color:#0E1420;
+    padding: 10px;
+   
+}
+
+ul{
+    list-style-type: none; /*fjerner "bullet points" */
+}
+
+a{
+    text-decoration: none; /* fjerner underlines fra links */
+}
+
+img{
+    width: 100%; /* sikre at billeder altid udfylder 100% af dens tildelte container */
+}
+
+/* header / navigationsbar */
+header{
+    font-family:'Merriweather', serif;
+    font-size: 15px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.logo a{
+    font-size: 16px;
+    
+}
+
+header ul{
+    display: flex;
+}
+
+header a{
+    color: #E8EAE3;
+    padding: 0 10px;
+    margin: 0 5;
+    font-size: 12px;
+    
+}
+
+header .flex{
+    justify-content: space-between;
+}
+
+header hr{
+    margin: 2px 30px;
+    border: 1px solid #024959;
+    border-radius: 50%;
+}
+/*main*/
+main .sweden{
+    box-shadow: 0 10px 70px #000;
+    width: 850px;
+    display: block;
+    margin: 70px auto;
+    padding: 2px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #024959;
+    
+}
+
+main h2{
+    opacity: 85%;
+    font-family:'Merriweather', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.5em;
+    text-size-adjust: auto;
+    position: absolute;
+    text-align: start;
+    top: 78%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 4px #000000;
+    width: 600px;
+}
+
+/*portfolio*/
+.container-2 h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    margin: 50px;
+}
+
+.image-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-img{
+    width: 600px;
+    padding: 20px 15px;
+}
+
+.single-img img:hover{
+    opacity: .7;
+    transition: .9s;
+}
+
+/*Goldennugget*/
+.container-3{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-3 div{
+    padding: 10px;
+    
+}
+
+.golden img{
+    width: 1200px;
+    margin-left: 150px;
+}
+    
+
+/*bio*/
+.container-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 620px;  
+}
+
+.container-1 div{
+    padding: 10px;
+    
+}
+
+.mig{
+    flex: 1;
+}
+
+.mig img{
+    width: 600px;
+    margin: 50px 50px 0;
+    margin-right: 0;
+}
+
+.mig hr{
+    border: #024959 solid 0.7px;
+    width: 610px;
+    margin: 1px 45px;
+}
+
+.om{
+    flex: 1;
+    margin-right: 30px;
+    line-height: 1.5em;
+    
+}
+
+.om h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+
+/*kontakt*/
+.email2{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 250px;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+
+.email2 a{
+    color: #E8EAE3;
+}
+/* Classes som benyttes på hele websitet */
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px; /* tilføjer 40px padding på højre og venster side, men intet til top og bund */
+
+}
+
+.flex {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+
+
+    
